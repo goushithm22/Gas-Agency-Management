@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas Booking System</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/11.2.0/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/11.2.0/firebase-firestore.js"></script>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <h1>🚀 Gas Booking System</h1>
+
+    <div class="container">
+        <h2>Register</h2>
+        <input type="email" id="registerEmail" placeholder="Enter your email">
+        <input type="password" id="registerPassword" placeholder="Enter your password">
+        <button id="registerBtn">Sign Up</button>
+
+        <h2>Login</h2>
+        <input type="email" id="loginEmail" placeholder="Enter your email">
+        <input type="password" id="loginPassword" placeholder="Enter your password">
+        <button id="loginBtn">Login</button>
+
+        <h2>Book Cylinder</h2>
+        <button id="bookCylinderBtn">Book Now</button>
+
+        <h3 id="statusMessage"></h3>
+    </div>
+</body>
+</html>
